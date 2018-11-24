@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Celulinha da Bia</title>
+        <link rel="shortcut icon" href="img/iconcelulinha.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script type="text/javascript" src="js/funcoes.js"></script>
+    </head>
+            <body>
+                <div id="interface" >
+                   <header id="cabecalho">
+                       <a href="index.html"><img id="logo" src="img/celulinha.png"></a>
+                   </header>
+                        <div id="sobre">
+                            <p>
+                              <button type="button" id="inicio"><a href="index.html" title="Volte a página inicial">
+                              <img id="home" src="img/home.png">Home</a></button>                        
+                              <button type="button" id="esquerda"><a href="quemsomos.html" title="Um pouquinho mais sobre nós.">
+                              <img id="quemsomos" src="img/quem_somos.png"> Quem Somos</a></button>
+                              <button type="button" id="direita"><a href="faleconosco.html" title="Quer conversar? Aqui é o lugar!">
+                              <img id="mensag" src="img/lapis.png">Mensagem</a></button>
+                            </p>   
+                      </div>
+                        <div class="form">
+                            <h3>Deixe seu recadinho aqui!</h3>
+                            <form action="https://formspree.io/fabianacamargo202@gmail.com" class="formulario" method="POST" tabindex="1"> 
+                              <input type="hidden" name="_next" value="obrigado" />
+                              <input type="hidden" name="_subject" value="Novo contato pelo Site!" />
+                              <input type="hidden" name="_language" value="pt-BR" />
+                              <input type="text" class="formulario-input" name="nome" placeholder="Nome" required />  
+                              <input type="email" class="formulario-input" name="_replyto" placeholder="E-mail" required />
+                              <input type="text" class="formulario-input" name="telefone" placeholder="Telefone" required />   
+                              <input type="text" class="formulario-input" name="assunto" placeholder="Assunto" required /> 
+                              <textarea class="formulario-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+                              <button type="submit" class="formulario-button">Enviar</button>  
+                          </form>  
+                        </div>
+
+                      <footer id="rodape">
+                        © Copyright Celulinha da Bia - Todos os direitos reservados.<br>
+                        Desenvolvido por: <a href="#">Elizandro Riboli</a> 
+                      </footer>
+                </div>
+            </body>
+</html>

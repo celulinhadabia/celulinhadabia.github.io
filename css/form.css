@@ -1,0 +1,69 @@
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    color: #69008C;
+}
+
+.formulario-input {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #eee;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.formulario-textarea {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #eee;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.formulario-button {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #888;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  transition: 1s;
+}
+
+.formulario-button:hover {
+  opacity: 1;
+}

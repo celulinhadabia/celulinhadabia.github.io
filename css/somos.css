@@ -1,0 +1,172 @@
+article{
+    position: relative;
+    left: 12%;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h2{
+    position: relative;
+    left: 57%;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    color: #69008C;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    color: #69008C;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+#local{
+    position: relative;
+    float: left;
+    width: 55%;
+}
+
+#mapa{
+    position: absolute;
+    float: right;
+    left: 84%;
+    bottom: 2px;
+    margin-bottom: 5px;
+}
+
+iframe{
+    box-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+#prin_qsomos p{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    margin-left: 8%;
+}
+
+#prin_qsomos img{
+    border-radius: 50%;
+    width: 220px;
+    margin: 4% 8% 0 8%;
+}
+
+#albuns{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+ul#fotos { 
+    position: relative;
+    left: 30%;
+    width: 570px; 
+    margin: 0 0 18px -30px; 
+}
+
+ul#fotos li { 
+    display: inline; 
+}
+
+ul#fotos img { 
+    display: inline; 
+    float: left; 
+    margin: 0 0 10px 10px; 
+    padding: 5px 5px 5px; 
+    box-shadow: 0 1px 1px rgba(0,0,0,1); 
+
+}
+
+ul#fotos img {  
+    display: block; 
+    width: 50%; 
+    margin-bottom: 10px;
+}
+
+
+ul#fotos li img:hover { 
+    transform: scale(1.25); 
+    box-shadow: 0 3px 3px rgba(0,0,0,1); 
+    position: relative; 
+    z-index: 5; 
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(64,255,0,.6); 
+
+}
+
+footer#rodape{
+    clear: both;
+    margin-top: 2px;
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    overflow: auto;
+}
+
+#imgModal{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 900px;
+}
+
+#fechar{
+    position: absolute;
+    top: 15px;
+    right: 185px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btesq{
+    position: absolute;
+    top: 230px;
+    left: 225px;
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#btesq:hover{
+    opacity: 1;
+}
+
+#btdir{
+    position: absolute;
+    top: 230px;
+    right: 225px;
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#btdir:hover{
+    opacity: 1;
+}
+
+#fechar:hover{
+    color: #f00;
+    transform: scale(1.4);
+    cursor: pointer;
+}
