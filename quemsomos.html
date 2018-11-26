@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Celulinha da Bia</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <link rel="shortcut icon" href="img/iconcelulinha.png" type="image/x-icon" />
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/somos.css">
+        <link rel="stylesheet" href="css/mobile.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <script type="text/javascript" src="js/funcoes.js"></script>
     </head>
@@ -26,10 +28,10 @@
                         </div>
                         <div id="prin_qsomos">
                             <h3>Um pouquinho mais de nós!</h3>
-                            <p>
+                            <p id="imagem"><img src="img/bia.png" title="Bia"></p>
+                            <p id="primeiro">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien ex, viverra feugiat velit a, sagittis tincidunt neque. Nunc sed efficitur eros. Sed eget erat quis elit commodo finibus. Sed nunc libero, commodo id nisi vel, condimentum vehicula quam. Duis commodo ex non rutrum fermentum. Ut tristique nulla arcu, at fermentum diam placerat at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer viverra non sem vitae iaculis. Duis id turpis sit amet ex pharetra maximus. Pellentesque suscipit tellus ac nisl tempus, nec convallis diam auctor. Ut porta luctus metus eget facilisis. Sed egestas sagittis sem, et pretium quam commodo ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla suscipit, purus at aliquam auctor, risus magna malesuada nunc, a convallis nibh lacus ut turpis.
-                            </p>
-                            <img src="img/bia.png" title="Bia">
+                            </p>  
                         </div>
 
                         <div id="albuns">
@@ -44,20 +46,6 @@
                           <span id="btesq" onclick="voltar();">&laquo;</span>
                           <span id="btdir" onclick="trocar();">&raquo;</span>
                           <img id="imgModal" onclick="trocar();">
-                        </div>
-
-                        <div id="local">
-                            <article>    
-                                <h2>Venha nos visitar!</h2> 
-                                <h4>Gostou da nossa celula? </h4>
-                                Anote o dia e o lugar que ela acontece:<br>
-                                <i class="fas fa-calendar-alt"> - Todos os Sábados</i> <br> 
-                                <i class="fas fa-clock"> - 16h30 </i><br> 
-                                <i class="fas fa-home"> - Rua Manoel Corrêa, 530 - Santa Rosália</i><br>
-                                <i class="fas fa-map-marker-alt"> - Poços de Caldas/MG</i>
-                                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.2597501004184!2d-46.54274668565973!3d-21.785190985593474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dd3dde403dbf%3A0xaa522ba19ab1b63e!2sR.+Manoel+Corr%C3%AAa%2C+530+-+Jardim+Santa+Rosalia%2C+Po%C3%A7os+de+Caldas+-+MG%2C+37704-080!5e0!3m2!1spt-BR!2sbr!4v1542064606675" width="330" height="170" frameborder="0" style="border:3" allowfullscreen>
-                                </iframe>
-                            </article>
                         </div>
                         
                       <footer id="rodape">

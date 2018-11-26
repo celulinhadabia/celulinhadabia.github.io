@@ -1,0 +1,192 @@
+@media (max-width: 767px){
+	#logo{
+		width: 95%;
+	    height: 2%;
+	    left: 3%;
+	    margin-top: 2%;
+	    margin-bottom: 3%;
+	}
+
+	#sobre{
+	    height: 5%;
+	    left: 2%;
+	}
+
+	#esquerda, #direita, #inicio{
+	    width: 39%;
+	    height: 19px;
+	    left: 50.5%;
+	    border-radius: 7px 7px 7px 7px;
+	    padding: 0 4px 10px 0;
+	    margin-bottom: 5px;
+	}
+
+	#direita{
+	    left: 93%;
+	    padding-right: 7px;
+	}
+
+	#inicio{
+	    text-align: center;
+	    padding: 0px 3px 2px 6px;
+	    left: 7%;
+	}
+
+	button a{
+	    font-size: 8px;
+	}
+
+	#home, #quemsomos, #mensag{
+		display: none;
+	}
+
+	#principal p{
+		font-size: 13px;
+		position: relative;
+		left: -10%;		
+	}
+	
+	#centro, #cantoesq, #cantodir, #centro1{
+	    height: 2%;
+	}
+
+	#cantodir{
+	    border-radius: 40px 0 0 0;
+	}
+
+	#cantoesq{
+	    border-radius: 0 40px 0 0;
+	    height: 57px;
+	}
+
+	#muda{
+	    height: 100px;
+	    width: 83%; 
+	    border-radius: 0 0 40px 40px;
+	}
+
+	footer#rodape{
+	    font-size: 7px;
+	}
+
+	#prin_qsomos {
+	    width: 95%;
+	    margin-left: 2%;
+	    margin-right: 7%;
+	    font-size: 8px;
+	    line-height: 1.5;
+	}
+
+	p #primeiro{
+		float: left;
+	}
+
+	#imagem{
+		float: right;
+		width: 30%;
+	}
+
+	#imagem img{
+	    width: 80%;
+	    margin-top: 2px;
+	}
+
+	h3{
+		text-align: center;
+	    font-size: 12px;
+	    margin-top: 5px;
+	}
+
+	h3 #dia{
+		left: 0;
+	}
+
+	article{
+	    left: 4%;
+	    font-size: 11px;
+	    margin-right: 3%;
+	}
+
+	h2{
+	    font-size: 13px;
+	}
+
+	#albuns{
+	    width: 95%;
+	}
+
+	ul#fotos { 
+	    left: 10%;
+	    width: 95%;
+	}
+
+	ul#fotos img {  
+	    padding: 2px 2px 2px; 
+	}
+
+	ul#fotos img {  
+	    width: 70%; 
+	    margin-bottom: 5px;
+	}
+
+
+	ul#fotos li img:hover { 
+	    transform: none; 
+	    box-shadow: 0 1px 1px rgba(0,0,0,1); 
+	    transition: none;
+	}
+
+	#imgModal{
+	    width: 100vw;
+	    max-width: 90vw;
+	}
+
+	#fechar{
+	    top: 3vw;
+	    right: 2vw;
+	    font-size: 10vw;
+	}
+
+	#btesq,	#btdir{
+		display: none;
+	}
+
+	#local{
+	    width: 95%;
+	}
+
+	.form {
+	  width: 95%;
+	}
+
+	#mapa{
+	    width: 38vw;
+	    height: 23vw;
+	    left: 20%;
+	    margin-top: 1vw;
+	    margin-bottom: 1vw;
+	}
+
+	.formulario-input, .formulario-textarea{
+	  width: 80%;
+	  font-size: 10px;
+	  border-radius: 5px;
+	  height: 14px;
+	  margin-left: 8%;
+	  margin-bottom: 2px;
+	  text-indent: 5px;
+	}
+
+	.formulario-textarea {
+	  height: 15vw;
+	}
+
+	.formulario-button {
+	  width: 80%;
+	  font-size: 10px;
+	  height: 20px;
+	  opacity: 0.8;
+	  margin-left: 8%;
+	  margin-bottom: 3vw;
+	}
+}

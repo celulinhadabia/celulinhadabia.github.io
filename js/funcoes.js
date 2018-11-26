@@ -50,14 +50,3 @@ function modal(img){
 }
 
 
-/*ul#fotos li:nth-child(n) img { 
-    transform: rotate(-5deg);  
-    position: relative; 
-    top: -5px; 
-}
-
-ul#fotos li:nth-child(2n) img { 
-    transform: rotate(5deg); 
-    position: relative; 
-    right: 5px; 
-}*/
